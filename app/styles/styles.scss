@@ -1,0 +1,61 @@
+/*
+ * Visual Style Guide styles
+ * Remove if you prefer to use a CSS library, like Bootstrap
+ */
+
+@import 'components/components';
+
+#headline {
+  padding: 0.8em;
+  color: white;
+  font-family: Roboto, sans-serif;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+        @media (min-width: 600px) {
+            padding: 20px 5%;
+            
+              #blurb {
+              float: left;
+              font-weight: 200;
+              width: 50%;
+              font-size: 18px;
+              box-sizing: border-box;
+              padding-right: 10px;
+            }
+
+            #register {
+              float:right;
+              padding: 20px;
+              width: 50%;
+              box-sizing: border-box;
+              font-weight: 300;
+            }
+
+            br {
+              clear: both;
+            }
+    
+        }
+}
+
+body{
+    background-color: #000;
+}
+
+
+ @media (min-width: 600px) {
+          #section1{
+                  ul {
+                  box-sizing: border-box;
+                  float: left;
+                  width: 50%;
+                  padding-right: 1em;
+                  }
+            video {
+            width: 50%;
+            float: right;
+            }
+        }
+
+        
+ }
